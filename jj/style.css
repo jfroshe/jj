@@ -1,0 +1,98 @@
+body {
+    background-color: #FCF8F3;
+}
+
+.big-background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 60%;
+    height: 100%;
+    background-color: #F9F1E7;
+    z-index: 1;
+}
+.header{
+display: flex;
+    position: absolute;
+}
+.logo-1{  
+    position: absolute;
+    width: 74px;
+    height: 29px;
+    left: 100px;
+    top: 48px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+img{
+    /* Auto Layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 336px;
+height: 24px;
+left: 215px;
+top: 51px;
+}
+.mmm{
+    position: absolute;
+width: 473px;
+height: 45px;
+left: 594px;
+top: 40px;
+
+/* Color / White */
+
+background: #FFFFFF;
+}
+.ll{
+    /* Icons */
+
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 152px;
+height: 40px;
+left: 1188px;
+top: 43px;
+}
+.banner{
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+/* 2563956 1 */
+
+.one{
+position: absolute;
+width: 934px;
+height: 553px;
+left: -560px;
+top: 221px;
+background-image: url(./img/Rectangle\ 48.png);
+}
+.two{
+    background-size:cover;
+    background-image: url(./img/Rectangle48.png);
+}
+.three{
+
+}
